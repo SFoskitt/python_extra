@@ -10,3 +10,4 @@ Including…
 max_fun.py = “define a function max() which takes two numbers and returns the larger of the two”
 max_of_three.py = “define a function max_of_three() which takes three numbers and returns the largest of the three”
 find_len.py = "Define a function that computes the length of a given list or string. (It is true that Python has the len() function built in, but writing it yourself is nevertheless a good exercise.)"
+is_vowel.py = "Write a function that takes a character (i.e. a string of length 1) and returns True if it is a vowel, False otherwise."
