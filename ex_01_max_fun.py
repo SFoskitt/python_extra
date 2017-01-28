@@ -11,4 +11,4 @@ def max(first, second):
 		print "second is greater", second
 		return second
 
-print "the answer is ", max(first, second)
+# print "the answer is ", max(first, second)
