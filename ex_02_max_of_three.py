@@ -14,5 +14,3 @@ def max_of_three(first, second, third):
 	if third > first and third > second:
 		print "third is greatest", third
 		return third
-
-max_of_three(first, second, third)
