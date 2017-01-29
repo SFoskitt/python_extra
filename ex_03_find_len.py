@@ -1,6 +1,6 @@
 from sys import argv
 
-script, candidate = argv
+# script, candidate = argv
 
 def find_len(candidate):
 	i = 0
@@ -8,4 +8,4 @@ def find_len(candidate):
 		i += 1
 	return i
 
-print "length of candidate is", find_len(candidate)
+# print "length of candidate is", find_len(candidate)

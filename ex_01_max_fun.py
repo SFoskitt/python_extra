@@ -1,6 +1,6 @@
 from sys import argv
 
-script, first, second = argv
+# script, first, second = argv
 
 def max(first, second):
 
