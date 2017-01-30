@@ -6,5 +6,5 @@ def generate_n_chars(n, c):
         ans += c
     return ans
 
-str = generate_n_chars(int(raw_input('Number of characters: ')), raw_input('Which character? '))
-print 'The result string is ', str
+# str = generate_n_chars(int(raw_input('Number of characters: ')), raw_input('Which character? '))
+# print 'The result string is ', str
