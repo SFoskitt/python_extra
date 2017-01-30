@@ -4,10 +4,25 @@
 # *********
 # *******
 
-def histogram(list):
-    length = len(list)
-    for i in range(0,length,1):
-        print '*' * list[i]
+# Uncomment the following to get output in the terminal (run as 'python ex_12_histogram.py')
+# def histogram(lst):
+#     length = len(lst)
+#     ans = ''
+#     for i in range(0,length,1):
+#         print '*!' * lst[i]
+#         ans += '*' * lst[i] + '\n'
+    
+#     print 'ans', ans
+#     return ans
+# list_arg = map(int, raw_input('List of numbers: ').split(','))
+# histogram(list_arg)
 
-list_arg = map(int, raw_input('List of numbers: ').split(','))
-histogram(list_arg)
+
+# The following is the same logic but setup to test
+def histogram(lst):
+    length = len(lst)
+    ans = ''
+    for i in range(0,length,1):
+        ans += '*' * lst[i] + '\n'
+    
+    return ans

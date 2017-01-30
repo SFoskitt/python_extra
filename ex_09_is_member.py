@@ -6,5 +6,5 @@ def is_member(x, a):
     else:
         return False
 
-ans = is_member(raw_input('Enter a value:  '), raw_input('Enter a list:  '))
-print "The answer is ", ans
+# ans = is_member(raw_input('Enter a value:  '), raw_input('Enter a list:  '))
+# print "The answer is ", ans

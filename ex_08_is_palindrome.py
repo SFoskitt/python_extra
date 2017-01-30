@@ -1,4 +1,4 @@
-def palindrome_test(str):
+def is_palindrome(str):
     length = len(str)
     backwards = ''
 
@@ -12,4 +12,4 @@ def palindrome_test(str):
     else:
         return False
 
-print palindrome_test(raw_input('Enter a string:  '))
+# print palindrome_test(raw_input('Enter a string:  '))
