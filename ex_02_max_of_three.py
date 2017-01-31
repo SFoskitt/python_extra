@@ -18,5 +18,3 @@ def max_of_three(first, second, third):
 
 	else:
 		return first
-
-# print 'the answer is', max_of_three(first, second, third)
