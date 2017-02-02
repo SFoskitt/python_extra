@@ -4,7 +4,6 @@ def filter_long_words(arg, n):
     print 'arg ', arg
     ans = []
     for word in arg:
-        print 'word ', word
         if len(word) > n:
             ans.append(word)
     print 'ans ', ans
